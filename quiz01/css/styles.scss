@@ -1,0 +1,55 @@
+/*Import the Reset CSS from _reset.scss*/
+@import "reset";
+/*Body Sass*/
+body {
+	margin: 0 auto;
+	font-family: "Helvetica Neue", Arial, Sans-Serif;
+	font-size: 100%;
+}
+$var: hsl(93, 60%, 54%);
+$var2: hsl(350, 94%, 54%);
+
+/*.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: block;
+	height: 10px;
+	background-color: red;
+	clear: both;
+}*/
+header {
+	background-color: $var;
+	img {
+		width: 150px;
+		display: inline-block;
+		float: left;
+	}
+	ul {
+		padding: 10px;
+		margin: 0;
+	}
+	li {
+		display: inline-block;
+		width: 16%;
+		text-align: center;
+		a {
+			float: right;
+			text-decoration: none;
+			color: $var2;
+			&:hover {
+				color: darken($var2,20%)
+			}
+		}
+	}
+}
+main {
+	background-color: darken($var,30%);
+	img {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.description {
+	
+}
