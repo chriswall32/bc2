@@ -1,0 +1,116 @@
+/*-------------------------------------
+    Variables
+-------------------------------------*/
+/*-------------------------------------
+    Presets
+-------------------------------------*/
+/* line 12, style.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, style.scss */
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 100;
+  line-height: 1.25;
+}
+/* line 19, style.scss */
+body h1 {
+  font-size: 175%;
+}
+/* line 20, style.scss */
+body h2 {
+  font-size: 150%;
+}
+/* line 21, style.scss */
+body h3 {
+  font-size: 125%;
+}
+/* line 22, style.scss */
+body h4 {
+  font-size: 100%;
+}
+/* line 23, style.scss */
+body h5 {
+  font-size: 75%;
+}
+/* line 24, style.scss */
+body h6 {
+  font-size: 50%;
+}
+/* line 25, style.scss */
+body img {
+  display: block;
+  width: 100%;
+}
+/* line 26, style.scss */
+body .button {
+  color: #222;
+  background-color: #ddd;
+  padding: .5rem 2rem;
+  margin: 1rem 0 0;
+  border-radius: .25rem;
+  text-decoration: none;
+}
+
+/* line 36, style.scss */
+.bs {
+  background-color: white;
+}
+
+/* line 40, style.scss */
+.bs .navbar-default {
+  background-color: #cdc0d3;
+  border-color: #e8e8e8;
+}
+
+/* line 45, style.scss */
+.bs .navbar {
+  border-radius: 0px;
+  border: none;
+  margin-bottom: 0;
+}
+
+/* line 51, style.scss */
+.bs .jumbotron {
+  background-image: url("http://smartsourcepackaging.com/wp-content/uploads/2013/10/blurred-background-office.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* line 57, style.scss */
+.bs .social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 63, style.scss */
+.bs footer {
+  background-color: #424b52;
+  color: white;
+  padding-top: 20px;
+}
+
+/* line 70, style.scss */
+.pc .pure-menu.pure-menu-open
+.pc .pure.menu.pure-menu-horizontal li .pure-menu-children {
+  background: #cdc0d3;
+  border: 1px solid #b8b8b8;
+}
+
+/* line 76, style.scss */
+.pc figure img {
+  border-radius: 50%;
+}
+
+/* line 81, style.scss */
+.pc footer {
+  background-color: #424b52;
+  color: white;
+  padding-top: 20px;
+}

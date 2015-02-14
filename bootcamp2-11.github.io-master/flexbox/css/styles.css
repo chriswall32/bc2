@@ -1,0 +1,69 @@
+/*-------------------------------------
+    Flexbox
+-------------------------------------*/
+/* line 4, styles.scss */
+main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 6, styles.scss */
+main article {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+/* line 9, styles.scss */
+main aside {
+  -webkit-box-flex: 4;
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+}
+
+/* line 14, styles.scss */
+ul.hero {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+/* line 24, styles.scss */
+ul.hero li {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+}
+/* line 30, styles.scss */
+ul.hero li:nth-child(2) {
+  height: auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
+
+/*-------------------------------------
+    Global Styles
+-------------------------------------*/

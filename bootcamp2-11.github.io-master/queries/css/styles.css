@@ -1,0 +1,65 @@
+/* line 1, styles.scss */
+html {
+  background-color: #333;
+}
+
+/* line 4, styles.scss */
+body, h1 {
+  margin: 0;
+}
+
+/* line 8, styles.scss */
+header {
+  background-color: #aaa;
+}
+
+/* line 11, styles.scss */
+.hero {
+  height: 100px;
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/2/21/Krk_waterfalls.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* line 17, styles.scss */
+main {
+  background-color: white;
+}
+
+/* line 20, styles.scss */
+footer {
+  background-color: #333;
+  color: white;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 27, styles.scss */
+  body {
+    background-color: blue;
+  }
+
+  /* line 30, styles.scss */
+  article div {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 38, styles.scss */
+  .hero {
+    background-attachment: scroll;
+  }
+
+  /* line 42, styles.scss */
+  aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 47, styles.scss */
+  aside li:nth-child(odd) {
+    background-color: cadetblue;
+  }
+}

@@ -1,0 +1,109 @@
+/* line 1, styles.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 2, styles.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 12, styles.scss */
+html {
+  background-color: #262626;
+}
+
+/* line 15, styles.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 200;
+  background-color: #d9d9d9;
+}
+
+/* line 23, styles.scss */
+h1, h2 {
+  color: #518a5e;
+  font-weight: 200;
+}
+
+/* line 28, styles.scss */
+header {
+  background-color: #88b994;
+}
+
+/* line 31, styles.scss */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 1rem;
+}
+/* line 35, styles.scss */
+nav ul li {
+  width: 20%;
+  float: left;
+  display: inline-block;
+  padding: 1rem 0;
+  text-align: center;
+}
+/* line 41, styles.scss */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 48, styles.scss */
+article {
+  width: 70%;
+  float: left;
+  padding: 1rem 2rem;
+}
+/* line 52, styles.scss */
+article img {
+  width: 100%;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1px solid #999;
+  background-color: white;
+}
+/* line 59, styles.scss */
+article div {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+}
+
+/* line 63, styles.scss */
+aside {
+  width: 30%;
+  float: right;
+  padding: 1rem 2rem;
+}
+/* line 67, styles.scss */
+aside ol {
+  padding: 1rem 0 0 1rem;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #8a517d;
+}
+/* line 72, styles.scss */
+aside ol li {
+  line-height: 1.5rem;
+}
+/* line 74, styles.scss */
+aside ol li:nth-child(odd) {
+  background-color: #dfc8da;
+}
+
+/* line 81, styles.scss */
+footer {
+  background-color: #262626;
+  color: white;
+  padding: 1rem;
+}

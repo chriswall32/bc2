@@ -1,0 +1,92 @@
+*, *:before, *:after {box-sizing: border-box;}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+$html: hsla(0, 0%, 15%, 1);
+$primary: hsla(134, 26%, 63%, 1);
+$header: darken($primary, 20%);
+
+html {
+    background-color: $html;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 200;
+    background-color: hsla(0, 0%, 85%, 1);
+}
+
+h1, h2 {
+    color: $header;
+    font-weight: 200;
+}
+
+header {
+    background-color: $primary;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 1rem;
+    li {
+        width: 20%;
+        float: left;
+        display: inline-block;
+        padding: 1rem 0;
+        text-align: center;
+        a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
+article {
+    width: 70%;
+    float: left;
+    padding: 1rem 2rem;
+    img {
+        width: 100%;
+        padding: 1rem;
+        border-radius: .5rem;
+        border: 1px solid #999;
+        background-color: white;
+    }
+    div {
+        columns: 2;
+    }
+}
+aside {
+    width: 30%;
+    float: right;
+    padding: 1rem 2rem;
+    ol {
+        padding: 1rem 0 0 1rem;
+        border-width: 1px 0 0 0;
+        border-style: solid;
+        border-color: complement($header);
+        li {
+            line-height: 1.5rem;
+            &:nth-child(odd){
+                background-color: lighten(complement($header), 40%);
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $html;
+    color: white;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
